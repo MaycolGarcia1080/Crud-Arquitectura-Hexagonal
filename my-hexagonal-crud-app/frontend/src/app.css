@@ -1,0 +1,116 @@
+/* General styles */
+body {
+    font-family: Open Sans, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Container styles */
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #02028691;
+}
+
+/* Header styles */
+.app-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.app-header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Content styles */
+.app-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* Form and List styles */
+.user-form form {
+    width: 100%;
+}
+
+.user-form h2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.user-form label {
+    display: block;
+    font-weight: bold;
+}
+
+.user-form input[type="text"],
+.user-form input[type="email"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+.user-form button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #1eb300; /* Verde para el botón "Crear" */
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.user-form button.update {
+    background-color: #efd122; /* Amarillo para el botón "Actualizar" */
+    color:#333
+}
+
+.user-form button:hover {
+    background-color: #00802f; /* Cambio de verde oscuro para el hover */
+}
+
+.user-form button.update:hover {
+    background-color: #b38f00; /* Cambio de amarillo oscuro para el hover */
+}
+
+.user-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-list th,
+.user-list td {
+    padding: 10px;
+    border: 1px solid #000000;
+}
+
+.user-list th {
+    background-color: #ffff008b;
+    font-weight: bold;
+}
+
+.user-list td button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #0056b3;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+
+.user-list td button:last-child {
+    margin-right: 0;
+    margin-left: 0;
+}
